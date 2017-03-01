@@ -35,7 +35,7 @@ Save this file to the folder you want to generate the files in.
 
 #### config.generate.json
 
-Create this file in the folder you want to generate the files.
+Create this file in the folder you want to generate the files in.
 
 - Range -> See Google Spreadsheet API v4 for more info.
 ```bash
@@ -43,6 +43,9 @@ Create this file in the folder you want to generate the files.
   "range": "Sheet1!A1:C"
 }
 ```
+
+#### config.token.json
+Stores your token after authentication
 
 ### Example
 
