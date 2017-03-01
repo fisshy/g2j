@@ -14,6 +14,9 @@ Select your project -> Credentials  -> Create Credentials -> OAuth client ID.
 Download the JSON-file and rename it to *config.creds.json*
 
 #### config.creds.json
+
+Save this file to the folder you want to generate the files in.
+
 ```bash
 {
     "installed":
@@ -30,6 +33,16 @@ Download the JSON-file and rename it to *config.creds.json*
 }
 ```
 
+#### config.generate.json
+
+Create this file in the folder you want to generate the files.
+
+- Range -> See Google Spreadsheet API v4 for more info.
+```bash
+{
+  "range": "Sheet1!A1:C"
+}
+```
 
 ### Example
 
