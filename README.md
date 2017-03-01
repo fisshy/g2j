@@ -5,7 +5,7 @@
 
 ### Install
 ```bash
-$ npm install g2j
+$ npm install -g googledocs2json
 ```
 
 ### Authorization / Config
