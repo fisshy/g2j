@@ -1,10 +1,33 @@
 ## Googledocs to JSON
 - One simple way to sync google rows/columns values to JSON files.
 
-
 ### Install
 ```bash
 $ npm install g2j
+```
+
+### Authorization / Config
+
+Authorization is done using OAuth2, please get your client/secret key at [https://console.developers.google.com]( https://console.developers.google.com),
+
+Select your project -> Credentials  -> Create Credentials -> OAuth client ID.
+Download the JSON-file and rename it to *config.creds.json*
+
+#### config.creds.json
+```bash
+{
+    "installed":
+    {
+        "client_id":"your_client_id",
+        "project_id":"your_projectId",
+        "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+        "token_uri":"https://accounts.google.com/o/oauth2/token",
+        "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret":"your_secret_key",
+        "redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]
+    },
+    "spreadsheet_key" : "your spreadsheet key"
+}
 ```
 
 
