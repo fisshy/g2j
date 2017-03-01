@@ -1,5 +1,5 @@
 ## Googledocs to JSON
-- One simple way to sync google rows/columns values to JSON files.
+- One simple way to sync google rows/columns values to key/value JSON.
 
 ### Install
 ```bash
