@@ -9,7 +9,8 @@ $ npm install g2j
 
 
 ### Example
-- Input
+
+#### Input
 
 | Key                             | en.json                           | sv.json                                          |
 |---------------------------------|-----------------------------------|--------------------------------------------------|
@@ -19,12 +20,12 @@ $ npm install g2j
 | Freight and transport           | Freight and transport             | Frakter och transporter                          |
 | Supplies and inventory          | Consumable equipment and supplies | Förbrukningsmaterial och Förbrukningsinventarier |
 
-- Command
+#### Run
 ```
 $ g2j
 ```
 
-- Output
+#### Output
 
 Two files were created.
 en.json and sv.json
